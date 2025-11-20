@@ -40,7 +40,7 @@ A home security system using a PIR (Passive Infrared) motion sensor connected to
 
 ## Screenshots
 ### Circuit Diagram
-![Circuit Diagram](screenshots/PIR Motion Sensor.png)
+![Circuit Diagram](screenshots/PIR-Motion-Sensor.png)
 
 
 ### When Simulation is started and Alarm is activated
