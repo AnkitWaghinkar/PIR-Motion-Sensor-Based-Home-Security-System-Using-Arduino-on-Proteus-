@@ -43,8 +43,8 @@ A home security system using a PIR (Passive Infrared) motion sensor connected to
 ![Circuit Diagram](screenshots/PIR Motion Sensor.png)
 
 
-### When Simulation is started and Alaram is activated
-![Alaram Activated](screenshots/alaram-activate.png)
+### When Simulation is started and Alarm is activated
+![Alarm Activated](screenshots/alarm-activate.png)
 
 
 ### When motion is detected
