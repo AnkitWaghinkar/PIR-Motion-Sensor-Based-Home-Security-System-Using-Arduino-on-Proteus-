@@ -1,27 +1,3 @@
-/*
-  PIR Motion Sensor Based Home Security System Project
-  This simple system is made to detect intruders/thieves/burglars using Arduino and PIR sensors. The PIR sensor is ideal for detecting human movement or occupancy in security systems.
-
-  How its works?
-  - The LCD will display "Alarm Security System" in the beginning, followed by  "LOADING **********".
-  - After loading the screen, the LCD will display "Alarm Activated".
-  - If the sensor detects movement, the LED light will blink, followed by a buzzer. Then, the LCD will display "Motion Detected Alarm Triggered".
-  - The BUZZER and LED are still ON even though the PIR sensor does not detect any movement after the alarm is triggered.
-  - Press the push button and ensure the PIR sensor did not detect any movement to reset the alarm. Then, the LCD will display "Alarm Reset" followed by "Alarm Activated".
- 
-  The circuit:
-  - Connect PIR motion sensor GND, OUT, and VCC pins to the GROUND, 3, and 5V pins of Arduino.
-  - Connect LED from pin 13 Arduino to the GROUND through 220 Ω resistor.
-  - Connect pushbutton from pin 2 Arduino to +5V. Then, add a 10kΩ resistor from pin 2 to the GROUND.
-  - Connect buzzer + pin to pin 3 Arduino and - pin to the GROUND.
-  - Connect LCD 1602 I2C SDA and SCL pins to Arduino UNO SDA and SCL pins. Then, connect GND and VCC pins to the ground and +5V.
-
-  PIR Code from Circuit Magic <https://circuitmagic.com/arduino/pir-motion-sensor-with-arduino>
-  Debounce Code from Arduino Example <https://www.arduino.cc/en/Tutorial/BuiltInExamples/Debounce>
-  Blink without Delay Code from Arduino Example <https://www.arduino.cc/en/Tutorial/BuiltInExamples/BlinkWithoutDelay>
-  Modified by My Creative Engineering <https://my-creative-engineering.blogspot.com>
-*/
-
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 
@@ -155,3 +131,4 @@ void loop()
 }
 
   
+
